@@ -30,7 +30,7 @@ Po Day 1 uczestnicy mają:
 - 14:30–14:40 — OPCJONALNA PRZERWA
 - 14:40–15:20 — Flow pracy bez tarcia: ergonomia terminala i rytm pracy
 - 15:20–15:45 — Bonus opcjonalny: Handy.computer teaser
-- 15:45–16:00 — Podsumowanie dnia + praca domowa
+- 15:45–16:00 — Podsumowanie dnia (bez obowiązkowej pracy domowej)
 
 ## 09:00–09:20 — Zoom onboarding + zasady pracy
 ### Why this matters in daily work
@@ -413,7 +413,7 @@ Po Day 1 uczestnicy mają:
 ### Szacowany czas
 - 25 min
 
-## 15:45–16:00 — Podsumowanie dnia + praca domowa
+## 15:45–16:00 — Podsumowanie dnia (bez obowiązkowej pracy domowej)
 ### Why this matters in daily work
 - Ludzie zapamiętują lepiej to, co nazwą, podsumują i zamkną konkretnym następnym krokiem.
 - Dzień bez domknięcia łatwo zamienia się w „coś tam było o AI”.
@@ -429,7 +429,7 @@ Po Day 1 uczestnicy mają:
 - Gdzie w repo będą kolejne materiały dnia.
 
 ### Co wklejam na chat
-- `Homework: dopracuj 1 sekcję PRD lub AGENTS.md i przygotuj 2 pytania do architektury / delegowania zadań na jutro.`
+- `Brak obowiązkowej pracy domowej. Opcjonalnie: dokończ fragment, którego nie udało się domknąć (np. przez limit/tempo) i zapisz 1 pytanie na jutro.`
 
 ### Ćwiczenie
 - Core: każdy zapisuje 1 rzecz, którą jutro chce robić lepiej z AI niż dziś.
