@@ -10,6 +10,7 @@ Po Day 4 uczestnicy mają:
 
 ## Linki dnia / mapa zależności
 - Prompty dla Day 4: `prompts/02-module-prompts.md#day-4--jakość-testy-security-cicd`
+- Prompt pack Day 4 (quick copy): `prompts/day-4/day-4-prompt-pack.md`
   - D4-M1 Testy: `prompts/02-module-prompts.md#d4-m1-generowanie-testów-do-konkretnego-zachowania`
   - D4-M2 Security audit: `prompts/02-module-prompts.md#d4-m2-audit-security-legacyjftp`
   - D4-M3 CI/CD cloud vs on-prem: `prompts/02-module-prompts.md#d4-m3-cicd-cloud-vs-on-prem`

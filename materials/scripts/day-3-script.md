@@ -10,6 +10,7 @@ Po Day 3 uczestnicy mają:
 
 ## Linki dnia / mapa zależności
 - Prompty dla Day 3: `prompts/02-module-prompts.md#day-3--implementacja-rdzenia-codex-first`
+- Prompt pack Day 3 (quick copy): `prompts/day-3/day-3-prompt-pack.md`
   - D3-M1 Mały slice: `prompts/02-module-prompts.md#d3-m1-prompt-implementacyjny-mały-slice`
   - D3-M2 Debugging: `prompts/02-module-prompts.md#d3-m2-prompt-debugowy`
   - D3-M3 Refaktor: `prompts/02-module-prompts.md#d3-m3-prompt-refaktoryzacyjny-bez-zmiany-zachowania`

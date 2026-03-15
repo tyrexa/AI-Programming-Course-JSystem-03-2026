@@ -10,6 +10,7 @@ Po Day 2 uczestnicy mają:
 
 ## Linki dnia / mapa zależności
 - Prompty dla Day 2: `prompts/02-module-prompts.md#day-2--architektura-dane-adr-zasady-dla-agentów`
+- Prompt pack Day 2 (quick copy): `prompts/day-2/day-2-prompt-pack.md`
   - D2-M1 ADR: `prompts/02-module-prompts.md#d2-m1-adr-decyzja-architektoniczna`
   - D2-M2 Model danych: `prompts/02-module-prompts.md#d2-m2-model-danych-i-reguły-domenowe`
   - D2-M3 System prompt: `prompts/02-module-prompts.md#d2-m3-system-prompt--zasady-pracy-agenta`

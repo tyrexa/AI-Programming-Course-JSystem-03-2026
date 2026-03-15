@@ -10,6 +10,7 @@ Po Day 5 uczestnicy mają:
 
 ## Linki dnia / mapa zależności
 - Prompty dla Day 5: `prompts/02-module-prompts.md#day-5--utrwalenie-on-prem-adaptacja-plan-30-dni`
+- Prompt pack Day 5 (quick copy): `prompts/day-5/day-5-prompt-pack.md`
   - D5-M1 Finalny audit: `prompts/02-module-prompts.md#d5-m1-finalny-audit-rozwiązania-końcowego`
   - D5-M2 Adaptacja cloud→on-prem: `prompts/02-module-prompts.md#d5-m2-adaptacja-cloud--on-prem`
   - D5-M3 Plan 30 dni: `prompts/02-module-prompts.md#d5-m3-plan-30-dni-po-szkoleniu`

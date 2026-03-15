@@ -11,6 +11,7 @@ Po Day 1 uczestnicy mają:
 ## Linki dnia / mapa zależności
 - Quiz otwarcia: `materials/quizzes/day-1-anonymous-ai-basics-quiz.md`
 - Prompty dla Day 1: `prompts/02-module-prompts.md#day-1--fundamenty-onboarding-pierwszy-workflow`
+- Prompt pack Day 1 (quick copy): `prompts/day-1/day-1-prompt-pack.md`
   - D1-M1 Start i kontrakt: `prompts/02-module-prompts.md#d1-m1-start-kursu-i-kontrakt-pracy-ai--bezpieczeństwo`
   - D1-M2 Quiz diagnostyczny: `prompts/02-module-prompts.md#d1-m2-quiz-diagnostyczny-anonimowy`
   - D1-M3 Z pomysłu do planu: `prompts/02-module-prompts.md#d1-m3-pierwszy-prompt-z-pomysłu-do-planu`
