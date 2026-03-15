@@ -138,13 +138,41 @@ Cel: przygotować 3–5 realnych opcji projektu końcowego na 5-dniowy kurs (pro
 - **Reuse NIE (core implementation):**
   - pełne odtwarzanie brancha CopilotKit jako głównej ścieżki implementacyjnej w tym kursie.
 
-## Wnioski po E1+E2 (bez finalnej rekomendacji E3)
-- Najmocniejsze edukacyjnie i najbardziej „bankowo-praktyczne” są:
-  1) **SOC Copilot Incident Triage**,
-  2) **Legacy Refactor & Risk Assistant**.
-- Obie opcje najlepiej wspierają cel kursu: **pokazać pracę agenta end-to-end**, a nie tylko „chat z LLM”.
-- Branch CopilotKit to **świetna baza referencyjna i demo-optional**, ale **zbyt ciężka jako rdzeń** 5-dniowej ścieżki dla mixed audience.
-- **AG-UI/CopilotKit/langgraph4j**: w tej edycji kursu jako **opcjonalny krótki wgląd**, nie jako core.
+## E3 — Rekomendacja końcowa (single preferred path + fallback)
 
-> Kolejne kroki:
-> - E3: finalna rekomendacja (single preferred + fallback).
+### Preferred path (rekomendacja główna)
+**SOC Copilot „Incident Triage” (Opcja 1)** jako główna oś tygodnia.
+
+**Dlaczego to wygrywa w tej grupie:**
+- Najlepiej łączy kontekst bankowy, SQL/DB i bezpieczeństwo (wysoka trafność dla uczestników).
+- Daje naturalną „misję” i stawkę biznesową, więc lepiej angażuje (elephant), bez utraty merytoryki (rider).
+- Bardzo dobrze mapuje się na 5 dni JSystems: od fundamentów i promptów, przez architekturę i implementację, po testy/audyt/CI-CD.
+- Pozwala pokazać agent internals (tool calls, JSON schema, system prompt, guardrails) na realistycznych artefaktach.
+- Pozostaje zgodne z Codex-first i nie wymaga ciężkiego AG-UI stacku jako rdzenia.
+
+**Jak ograniczyć ryzyko scope creep (ważne):**
+- Trzymać się symulowanego datasetu incydentów + prostego workflow triage.
+- Nie budować „pełnego SIEM”; skupienie na decyzjach, audytowalności i jakości.
+- AG-UI/CopilotKit tylko jako optional 5–10 min demo z gotowego fragmentu.
+
+### Fallback path (ścieżka zapasowa)
+**Legacy Refactor & Risk Assistant (Opcja 2)** jeśli grupa będzie miała niższą tolerancję na nowy domain context lub tempo implementacji spadnie.
+
+**Kiedy przełączyć się na fallback:**
+- gdy Day 2 kończy się bez stabilnego backlogu i kontraktu API dla triage,
+- gdy >40% grupy sygnalizuje, że „incident/SOC” jest zbyt odległy od ich codziennej pracy,
+- gdy priorytetem staje się szybkie domknięcie jakości/testów/audytu na znanym legacy flow.
+
+**Zaleta fallbacku:**
+- mniejsza złożoność startowa,
+- bardzo mocne osadzenie w Day 4/5 (quality/security/legacy),
+- nadal pełna zgodność z celem „agent end-to-end” i Codex-first.
+
+## Wnioski po E1+E3
+- Najmocniejsze i rekomendowane na ten tydzień: **Opcja 1 (SOC Copilot Incident Triage)**.
+- Najbezpieczniejszy fallback operacyjny: **Opcja 2 (Legacy Refactor & Risk Assistant)**.
+- Branch CopilotKit zostaje **bazą referencyjną + optional demo**, a nie rdzeniem implementacji.
+- **AG-UI/CopilotKit/langgraph4j**: pokaz opcjonalny; core kursu pozostaje lekki, praktyczny i Codex-first.
+
+> Kolejny krok:
+> - E4: wysłać krótkie podsumowanie konsultacyjne do Lucasa i poprosić o decyzję (preferred vs fallback).
